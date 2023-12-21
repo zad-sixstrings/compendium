@@ -7,7 +7,10 @@ const MonsterList = () => {
   useEffect(() => {
     // Fetch monster names when the component mounts
     fetch("/mhdb/mhw_db.json") // Adjust the path based on your project structure
-      .then((response) => response.json())
+      .then((response) => {
+        console.log(response);
+        return response.json();
+      })
       .then((data) => {
         // Log the fetched data to check its structure
         console.log("Fetched Data:", data);
