@@ -17,7 +17,7 @@ const elementIconMapping = {
 };
 
 const ElementIcon = ({ element }) => {
-  const iconPath = `/assets/${elementIconMapping[element]}`;
+  const iconPath = `/assets/elements/${elementIconMapping[element]}`;
   return <img src={iconPath} alt={element} className="element-icon" />;
 };
 
@@ -30,7 +30,7 @@ const MonsterCard = ({ monster }) => {
 
   const croppedDescription = isExpanded
     ? monster.description
-    : `${monster.description.slice(0, 100)}...`;
+    : `${monster.description.slice(0, 50)}...`;
 
   return (
     <div key={monster.id} className="monster-card">
@@ -39,7 +39,7 @@ const MonsterCard = ({ monster }) => {
       <p className="description">
         {croppedDescription}
         <span className="expand-btn" onClick={toggleDescription}>
-          {isExpanded ? " (less)" : " (show)"}
+          {isExpanded ? " (hide)" : " (show)"}
         </span>
       </p>
       <p className="card-section-title">Weakness</p>
