@@ -15,3 +15,15 @@
   .monster-card h3 {
     margin-top: 0;
   }
+
+  input {
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(146, 146, 146, 0.1);
+    color: rgb(160, 160, 160);
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 30%;
+  }

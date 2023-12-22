@@ -17,11 +17,11 @@ const MonsterCard = ({ monster }) => {
   return (
     <div key={monster.id} className="monster-card">
       <h2>{monster.name}</h2>
-      <p>Species: {monster.species}</p>
-      <p>
-        Description: {croppedDescription}
+      <p className="species">{monster.species}</p>
+      <p className="description">
+        {croppedDescription}
         <span className="expand-btn" onClick={toggleDescription}>
-          {isExpanded ? " Less" : "... More"}
+          {isExpanded ? " (less)" : " (show)"}
         </span>
       </p>
       <p>

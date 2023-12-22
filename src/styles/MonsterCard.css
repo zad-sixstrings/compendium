@@ -3,17 +3,41 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
-    padding: 20px;
+    padding: 50px;
   }
   
   /* Card styles */
   .monster-card {
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 16px;
     text-align: left;
-    background-color: #fff;
+    background-color: #c2c2c2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .monster-card h2 {
+    color: rgb(8, 133, 235);
+    line-height: 1em;
+    text-align: center;
+  }
+
+  .monster-card p {
+    color: rgb(37, 37, 37);
+    line-height: 1.3em;
+  }
+
+  p.species {
+    text-align: center;
+    color: rgb(54, 54, 54);
+    font-style: italic;
+  }
+
+  p.description {
+    margin-top: 40px;
+  }
+
+  .expand-btn {
+    color: rgb(8, 133, 235);
   }
   
   /* Responsive styles */
