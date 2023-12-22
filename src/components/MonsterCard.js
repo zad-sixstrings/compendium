@@ -23,8 +23,8 @@ const ElementIcon = ({ element }) => {
 
 // Function to generate the monster icon file name
 const getMonsterIconFileName = (monsterName) => {
-  // Convert the monster name to lowercase and replace spaces with underscores
-  const formattedName = monsterName.toLowerCase().replace(/\s+/g, "_");
+  // Replace spaces with underscores
+  const formattedName = monsterName.replace(/\s+/g, "_");
   return `${formattedName}_Icon.webp`;
 };
 
