@@ -3,6 +3,24 @@ import React, { useState } from "react";
 import mhw_db from "../data/mhw_db.json";
 import "../styles/MonsterCard.css";
 
+const elementIconMapping = {
+  fire: "fire.png",
+  water: "water.png",
+  thunder: "thunder.png",
+  ice: "ice.png",
+  dragon: "dragon.png",
+  poison: "poison.png",
+  sleep: "sleep.png",
+  paralysis: "paralysis.png",
+  blast: "blast.png",
+  stun: "stun.png",
+};
+
+const ElementIcon = ({ element }) => {
+  const iconPath = `/assets/${elementIconMapping[element]}`;
+  return <img src={iconPath} alt={element} className="element-icon" />;
+};
+
 const MonsterCard = ({ monster }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -24,11 +42,21 @@ const MonsterCard = ({ monster }) => {
           {isExpanded ? " (less)" : " (show)"}
         </span>
       </p>
-      <p>
-        Weaknesses:{" "}
-        {monster.weaknesses.map((w) => `${w.element} ${w.stars}`).join(", ")}
+      <p className="card-section-title">Weakness</p>
+      <p className="centered-text">
+        {monster.weaknesses.map((w) => (
+          <span key={w.element}>
+            <ElementIcon element={w.element} />
+            {` ${w.stars}`}
+          </span>
+        ))}
       </p>
-      <p>Resistances: {monster.resistances.map((r) => r.element).join(", ")}</p>
+      <p className="card-section-title">Resistance</p>
+      <p className="centered-text">
+        {monster.resistances.map((r) => (
+          <ElementIcon key={r.element} element={r.element} />
+        ))}
+      </p>
     </div>
   );
 };

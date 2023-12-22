@@ -10954,7 +10954,7 @@
             "ice"
         ],
         "name": "Barioth",
-        "description": "he snow-white flying wyvern with huge tusks found in the frozen tundra. It uses its forelegs and tail to traverse ice with ease.",
+        "description": "The snow-white flying wyvern with huge tusks found in the frozen tundra. It uses its forelegs and tail to traverse ice with ease.",
         "ailments": [
             {
                 "id": 6,
@@ -13279,7 +13279,7 @@
         "species": "",
         "elements": [],
         "name": "Alatreon",
-        "description": "",
+        "description": "Known as a symbol of destruction, it's rumored to harness the full force of nature, but no records remain.",
         "ailments": [],
         "resistances": [],
         "weaknesses": [],
@@ -13288,25 +13288,81 @@
     {
         "id": 91,
         "type": "large",
-        "species": "",
+        "species": "flying wyvern",
         "elements": [],
         "name": "Frostfang Barioth",
-        "description": "",
+        "description": "A Barioth variant capable of spewing a sub-zero breath attack that it uses to slow down prey. Be careful, as this attack can freeze you as well.",
         "ailments": [],
-        "resistances": [],
-        "weaknesses": [],
+        "resistances": [
+            {
+                "element": "water",
+                "condition": null
+            },
+            {
+                "element": "ice",
+                "condition": null
+            }
+        ],
+        "weaknesses": [
+            {
+                "element": "fire",
+                "stars": 3,
+                "condition": null
+            },
+            {
+                "element": "thunder",
+                "stars": 2,
+                "condition": null
+            },
+            {
+                "element": "poison",
+                "stars": 2,
+                "condition": null
+            },
+            {
+                "element": "sleep",
+                "stars": 2,
+                "condition": null
+            },
+            {
+                "element": "paralysis",
+                "stars": 2,
+                "condition": null
+            },
+            {
+                "element": "blast",
+                "stars": 2,
+                "condition": null
+            },
+            {
+                "element": "stun",
+                "stars": 2,
+                "condition": null
+            }
+        ],
         "rewards": []
     },
     {
         "id": 92,
         "type": "large",
-        "species": "",
+        "species": "elder dragon",
         "elements": [],
         "name": "Fatalis",
-        "description": "",
+        "description": "A legendary black dragon known only as Fatalis. Rumored to have destroyed a kingdom in a single night, and has taken its castle for a roost.",
         "ailments": [],
         "resistances": [],
-        "weaknesses": [],
+        "weaknesses": [
+            {
+                "element": "dragon",
+                "stars": 3,
+                "condition": null
+            },
+            {
+                "element": "fire",
+                "stars": 2,
+                "condition": null
+            }
+        ],
         "rewards": []
     }
 ]

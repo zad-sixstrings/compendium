@@ -40,6 +40,18 @@
     color: rgb(8, 133, 235);
   }
   
+  .element-icon {
+    width:20px;
+  }
+
+  .card-section-title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .centered-text {
+    text-align: center;
+  }
   /* Responsive styles */
   @media screen and (max-width: 768px) {
     .monster-cards-container {
