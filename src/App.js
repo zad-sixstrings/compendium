@@ -1,13 +1,14 @@
-// src/App.js
+// App.js or your main component file
 import React from "react";
-import MonsterList from "./MonsterList";
+import MonsterCard from "./MonsterCard";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <MonsterList />
+      <MonsterCard />
     </div>
   );
-}
+};
 
 export default App;
