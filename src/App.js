@@ -1,12 +1,25 @@
 // App.js
-import React from "react";
-import MonsterCard from "./MonsterCard";
+import React, { useState } from "react";
+import MonsterCards from "./MonsterCard";
 import "./App.css";
 
+// Search bar
 const App = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
   return (
     <div className="App">
-      <MonsterCard />
+      <input
+        type="text"
+        placeholder="Search monster..."
+        value={searchTerm}
+        onChange={handleSearch}
+      />
+      <MonsterCards searchTerm={searchTerm} />
     </div>
   );
 };

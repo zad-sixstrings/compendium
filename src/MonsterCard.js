@@ -3,9 +3,13 @@ import React from "react";
 import mhw_db from "./mhw_db.json";
 import "./MonsterCards.css"; // Import the CSS file
 
-const MonsterCards = () => {
+const MonsterCards = ({ searchTerm }) => {
   // Filter large monsters
-  const largeMonsters = mhw_db.filter((monster) => monster.type === "large");
+  const largeMonsters = mhw_db.filter(
+    (monster) =>
+      monster.type === "large" &&
+      monster.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   // Sort large monsters alphabetically by name
   const sortedMonsters = largeMonsters.sort((a, b) =>
