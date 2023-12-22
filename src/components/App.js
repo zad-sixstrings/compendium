@@ -1,7 +1,8 @@
 // App.js
 import React, { useState } from "react";
 import MonsterCards from "./MonsterCard";
-import "./App.css";
+import SearchBar from "./SearchBar";
+import "../styles/App.css";
 
 // Search bar
 const App = () => {
@@ -13,12 +14,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <input
-        type="text"
-        placeholder="Search monster..."
-        value={searchTerm}
-        onChange={handleSearch}
-      />
+      <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
       <MonsterCards searchTerm={searchTerm} />
     </div>
   );

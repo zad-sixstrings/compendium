@@ -1,7 +1,7 @@
 // MonsterCard.js
 import React, { useState } from "react";
-import mhw_db from "./mhw_db.json";
-import "./MonsterCards.css"; // Import the CSS file
+import mhw_db from "../data/mhw_db.json";
+import "../styles/MonsterCard.css";
 
 const MonsterCard = ({ monster }) => {
   const [isExpanded, setIsExpanded] = useState(false);
