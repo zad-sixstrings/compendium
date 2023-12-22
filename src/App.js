@@ -1,4 +1,4 @@
-// App.js or your main component file
+// App.js
 import React from "react";
 import MonsterCard from "./MonsterCard";
 import "./App.css";

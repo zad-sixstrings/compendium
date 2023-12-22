@@ -1,4 +1,4 @@
-// MonsterCards.js
+// MonsterCard.js
 import React from "react";
 import mhw_db from "./mhw_db.json";
 import "./MonsterCards.css"; // Import the CSS file
