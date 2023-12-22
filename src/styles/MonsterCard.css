@@ -6,56 +6,60 @@
     padding: 50px;
   }
   
-  /* Card styles */
-  .monster-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-align: left;
-    background-color: #c2c2c2;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+/* Card styles */
+.monster-card {
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  background: rgb(194,194,194);
+  background: linear-gradient(0deg, rgba(194,194,194,1) 65%, rgb(128, 128, 128) 100%);
+}
 
-  .monster-card h2 {
-    color: rgb(8, 133, 235);
-    line-height: 1em;
-    text-align: center;
-  }
+.monster-card h2 {
+  color: rgb(8, 133, 235);
+  line-height: 1em;
+}
 
-  .monster-card p {
-    color: rgb(37, 37, 37);
-    line-height: 1.3em;
-  }
+.monster-card p {
+  color: rgb(37, 37, 37);
+  line-height: 1.3em;
+}
 
-  p.species {
-    text-align: center;
-    color: rgb(54, 54, 54);
-    font-style: italic;
-  }
+p.species {
+  color: rgb(54, 54, 54);
+  font-style: italic;
+}
 
-  p.description {
-    margin-top: 40px;
-  }
+p.description {
+  margin-top: 40px;
+  text-align: justify;
+}
 
-  .expand-btn {
-    color: rgb(8, 133, 235);
-  }
-  
-  .element-icon {
-    width:20px;
-  }
+.expand-btn {
+  color: rgb(8, 133, 235);
+}
 
-  .card-section-title {
-    text-align: center;
-    font-weight: bold;
-  }
+.element-icon {
+  width:20px;
+}
 
-  .centered-text {
-    text-align: center;
+.monster-icon {
+  height: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.card-section-title {
+  font-weight: bold;
+}
+
+.centered-text {
+  text-align: center;
+}
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .monster-cards-container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   }
-  /* Responsive styles */
-  @media screen and (max-width: 768px) {
-    .monster-cards-container {
-      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-    }
-  }
+}
   

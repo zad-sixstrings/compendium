@@ -21,6 +21,13 @@ const ElementIcon = ({ element }) => {
   return <img src={iconPath} alt={element} className="element-icon" />;
 };
 
+// Function to generate the monster icon file name
+const getMonsterIconFileName = (monsterName) => {
+  // Convert the monster name to lowercase and replace spaces with underscores
+  const formattedName = monsterName.toLowerCase().replace(/\s+/g, "_");
+  return `${formattedName}_Icon.webp`;
+};
+
 const MonsterCard = ({ monster }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -32,17 +39,24 @@ const MonsterCard = ({ monster }) => {
     ? monster.description
     : `${monster.description.slice(0, 50)}...`;
 
+  const monsterIconFileName = getMonsterIconFileName(monster.name);
+
   return (
     <div key={monster.id} className="monster-card">
-      <h2>{monster.name}</h2>
-      <p className="species">{monster.species}</p>
+      <img
+        src={`/assets/monsters/${monsterIconFileName}`}
+        alt={`${monster.name} Icon`}
+        className="monster-icon"
+      />
+      <h2 className="centered-text">{monster.name}</h2>
+      <p className="species centered-text">{monster.species}</p>
       <p className="description">
         {croppedDescription}
         <span className="expand-btn" onClick={toggleDescription}>
           {isExpanded ? " (hide)" : " (show)"}
         </span>
       </p>
-      <p className="card-section-title">Weakness</p>
+      <p className="card-section-title centered-text">Weakness</p>
       <p className="centered-text">
         {monster.weaknesses.map((w) => (
           <span key={w.element}>
@@ -51,7 +65,7 @@ const MonsterCard = ({ monster }) => {
           </span>
         ))}
       </p>
-      <p className="card-section-title">Resistance</p>
+      <p className="card-section-title centered-text">Resistance</p>
       <p className="centered-text">
         {monster.resistances.map((r) => (
           <ElementIcon key={r.element} element={r.element} />
