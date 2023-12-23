@@ -4,7 +4,6 @@ import MonsterCards from "./MonsterCard";
 import SearchBar from "./SearchBar";
 import "../styles/App.css";
 
-// Search bar
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
 

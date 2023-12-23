@@ -16,18 +16,20 @@ const elementIconMapping = {
   stun: "stun.png",
 };
 
+// Set elemental and ailments icons
 const ElementIcon = ({ element }) => {
   const iconPath = `/assets/elements/${elementIconMapping[element]}`;
   return <img src={iconPath} alt={element} className="element-icon" />;
 };
 
-// Function to generate the monster icon file name
+// Generate the monster icon file name
 const getMonsterIconFileName = (monsterName) => {
   // Replace spaces with underscores
   const formattedName = monsterName.replace(/\s+/g, "_");
   return `${formattedName}_Icon.webp`;
 };
 
+// Generate monster card
 const MonsterCard = ({ monster }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -48,16 +50,16 @@ const MonsterCard = ({ monster }) => {
         alt={`${monster.name} Icon`}
         className="monster-icon"
       />
-      <h2 className="centered-text">{monster.name}</h2>
-      <p className="species centered-text">{monster.species}</p>
+      <h2 className="centered">{monster.name}</h2>
+      <p className="species centered">{monster.species}</p>
       <p className="description">
         {croppedDescription}
         <span className="expand-btn" onClick={toggleDescription}>
           {isExpanded ? " (hide)" : " (show)"}
         </span>
       </p>
-      <p className="card-section-title centered-text">Weakness</p>
-      <p className="centered-text">
+      <p className="bold centered">Weakness</p>
+      <p className="centered">
         {monster.weaknesses.map((w) => (
           <span key={w.element}>
             <ElementIcon element={w.element} />
@@ -65,8 +67,8 @@ const MonsterCard = ({ monster }) => {
           </span>
         ))}
       </p>
-      <p className="card-section-title centered-text">Resistance</p>
-      <p className="centered-text">
+      <p className="bold centered">Resistance</p>
+      <p className="centered">
         {monster.resistances.map((r) => (
           <ElementIcon key={r.element} element={r.element} />
         ))}
@@ -75,6 +77,7 @@ const MonsterCard = ({ monster }) => {
   );
 };
 
+// Search feature
 const MonsterCards = ({ searchTerm }) => {
   // Filter large monsters
   const filteredMonsters = mhw_db.filter(
@@ -83,7 +86,7 @@ const MonsterCards = ({ searchTerm }) => {
       monster.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  // Sort large monsters alphabetically by name
+  // Sort monsters alphabetically
   const sortedMonsters = filteredMonsters.sort((a, b) =>
     a.name.localeCompare(b.name)
   );

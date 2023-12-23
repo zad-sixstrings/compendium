@@ -10184,7 +10184,7 @@
     {
         "id": 62,
         "type": "large",
-        "species": "brute wyverns",
+        "species": "brute wyvern",
         "elements": [
             "ice"
         ],
@@ -13041,7 +13041,7 @@
     {
         "id": 90,
         "type": "large",
-        "species": "",
+        "species": "elder dragon",
         "elements": [],
         "name": "Alatreon",
         "description": "Known as a symbol of destruction, it's rumored to harness the full force of nature, but no records remain.",
