@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import mhw_db from "../data/mhw_db.json";
 import "../styles/MonsterCard.css";
+import FullCard from "./FullCard";
+import { getMonsterIconPath } from "./utilities";
 
 const elementIconMapping = {
   fire: "fire.png",
@@ -22,31 +24,33 @@ const ElementIcon = ({ element }) => {
   return <img src={iconPath} alt={element} className="element-icon" />;
 };
 
-// Generate the monster icon file name
-const getMonsterIconFileName = (monsterName) => {
-  // Replace spaces with underscores
-  const formattedName = monsterName.replace(/\s+/g, "_");
-  return `${formattedName}_Icon.webp`;
-};
-
 // Generate monster card
 const MonsterCard = ({ monster }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isFullCardOpen, setIsFullCardOpen] = useState(false); // Fullcard state
 
   const toggleDescription = () => {
     setIsExpanded(!isExpanded);
+  };
+
+  const toggleFullCard = () => {
+    setIsFullCardOpen(!isFullCardOpen);
   };
 
   const croppedDescription = isExpanded
     ? monster.description
     : `${monster.description.slice(0, 50)}...`;
 
-  const monsterIconFileName = getMonsterIconFileName(monster.name);
+  const monsterIconPath = getMonsterIconPath(monster.name);
 
   return (
-    <div key={monster.id} className="monster-card">
+    <div
+      key={monster.id}
+      className="monster-card"
+      onClick={() => toggleFullCard(monster)}
+    >
       <img
-        src={`/assets/monsters/${monsterIconFileName}`}
+        src={monsterIconPath}
         alt={`${monster.name} Icon`}
         className="monster-icon"
       />
@@ -73,6 +77,10 @@ const MonsterCard = ({ monster }) => {
           <ElementIcon key={r.element} element={r.element} />
         ))}
       </p>
+      {isFullCardOpen && (
+        <FullCard onClose={toggleFullCard} monster={monster} />
+      )}
+      {/* Render FullCard conditionally */}
     </div>
   );
 };
