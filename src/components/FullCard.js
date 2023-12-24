@@ -1,3 +1,4 @@
+// FullCard.js
 import React from "react";
 import PropTypes from "prop-types";
 import { getMonsterIconPath } from "./utilities";

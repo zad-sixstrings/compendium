@@ -12,11 +12,12 @@
     z-index: 1000;
     cursor: default;
   }
-  
+ 
   .full-card-content {
-    background-color: white;
+    background-color: rgb(194,194,194);
     padding: 20px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
     z-index: 1001;
+    max-width: 800px;
   }
