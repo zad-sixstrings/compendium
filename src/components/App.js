@@ -7,15 +7,22 @@ import "../styles/App.css";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedGame, setSelectedGame] = useState(null);
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
   };
 
+  const handleSelectGame = (game) => {
+    setSelectedGame(game);
+  };
+
   return (
     <div className="App">
-      <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
-      <MonsterCards searchTerm={searchTerm} />
+      <div className="main-content">
+        <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
+        <MonsterCards searchTerm={searchTerm} selectedGame={selectedGame} />
+      </div>
       <div className="footer">
         <p className="centered">
           Compendium | Created by{" "}

@@ -6,16 +6,20 @@
   }
 
 input {
+  display: flex;
   text-align: center;
   padding: 10px;
   background-color: transparent;
   border: 1px solid rgba(146, 146, 146, 0.1);
   color: rgb(160, 160, 160);
   border-radius: 10px;
-  display: block;
   margin: auto;
   margin-top: 50px;
   width: 30%;
+}
+
+.logo {
+  width: 50px;
 }
 
 /* Footer style */
