@@ -1,4 +1,7 @@
 /* App.css */
+body {
+  margin: 0 auto;
+}
 .monster-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

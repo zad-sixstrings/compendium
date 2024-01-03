@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import MonsterCards from "./MonsterCard";
 import SearchBar from "./SearchBar";
+import NavigationMenu from "./NavigationMenu";
 
 import "../styles/App.css";
 
@@ -19,6 +20,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <NavigationMenu />
       <div className="main-content">
         <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
         <MonsterCards searchTerm={searchTerm} selectedGame={selectedGame} />

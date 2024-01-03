@@ -1,0 +1,40 @@
+/* NavigationMenu.css */
+.navigation-menu {
+    background-color: #111111; /* Dark background color */
+    color: #d6c096; /* White text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Add some padding for better spacing */
+    vertical-align: middle;
+  }
+  
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px; /* Add some margin for spacing */
+}
+
+.app-name {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    font-family: 'Cinzel', serif;
+}
+
+.right-section {
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 30px; /* Add some margin for spacing */
+}
+
+.game-logo {
+    display: none;
+    width: 30px;
+}
+  
+  /* Add more styles as needed */
+  
