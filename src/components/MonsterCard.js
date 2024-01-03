@@ -18,7 +18,9 @@ const elementIconMapping = {
 
 // Set elemental and ailments icons
 const ElementIcon = ({ element }) => {
-  const iconPath = `/assets/elements/${elementIconMapping[element]}`;
+  const iconPath = `/assets/elements/${
+    elementIconMapping[element] || "default.png"
+  }`;
   return <img src={iconPath} alt={element} className="element-icon" />;
 };
 
@@ -44,7 +46,7 @@ const MonsterCard = ({ monster }) => {
   const monsterIconFileName = getMonsterIconFileName(monster.name);
 
   return (
-    <div key={monster.id} className="monster-card">
+    <div className="monster-card">
       <img
         src={`/assets/monsters/${monsterIconFileName}`}
         alt={`${monster.name} Icon`}
@@ -60,8 +62,8 @@ const MonsterCard = ({ monster }) => {
       </p>
       <p className="bold centered">Weakness</p>
       <p className="centered">
-        {monster.weaknesses.map((w) => (
-          <span key={w.element}>
+        {monster.weaknesses.map((w, index) => (
+          <span key={`${w.element}-${index}`}>
             <ElementIcon element={w.element} />
             {` ${w.stars}`}
           </span>
@@ -69,8 +71,8 @@ const MonsterCard = ({ monster }) => {
       </p>
       <p className="bold centered">Resistance</p>
       <p className="centered">
-        {monster.resistances.map((r) => (
-          <ElementIcon key={r.element} element={r.element} />
+        {monster.resistances.map((r, index) => (
+          <ElementIcon key={`${r.element}-${index}`} element={r.element} />
         ))}
       </p>
     </div>
@@ -94,7 +96,7 @@ const MonsterCards = ({ searchTerm }) => {
   return (
     <div className="monster-cards-container">
       {sortedMonsters.map((monster) => (
-        <MonsterCard key={monster.id} monster={monster} />
+        <MonsterCard key={`${monster.id}-${monster.name}`} monster={monster} />
       ))}
     </div>
   );
