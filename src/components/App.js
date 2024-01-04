@@ -3,19 +3,13 @@ import React, { useState } from "react";
 import MonsterCards from "./MonsterCard";
 import SearchBar from "./SearchBar";
 import NavigationMenu from "./NavigationMenu";
-
 import "../styles/App.css";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedGame, setSelectedGame] = useState(null);
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
-  };
-
-  const handleSelectGame = (game) => {
-    setSelectedGame(game);
   };
 
   return (
@@ -23,7 +17,7 @@ const App = () => {
       <NavigationMenu />
       <div className="main-content">
         <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
-        <MonsterCards searchTerm={searchTerm} selectedGame={selectedGame} />
+        <MonsterCards searchTerm={searchTerm} />
       </div>
       <div className="footer">
         <p className="centered">
