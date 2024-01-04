@@ -1,8 +1,12 @@
 // NavigationMenu.js
 import React from "react";
-import "../styles/NavigationMenu.css"; // Import the stylesheet for styling
+import "../styles/NavigationMenu.css";
 
-const NavigationMenu = () => {
+const NavigationMenu = ({ onDataSourceChange }) => {
+  const handleDataSourceChange = (newSource) => {
+    onDataSourceChange(newSource);
+  };
+
   return (
     <div className="navigation-menu">
       <div className="left-section">
@@ -12,14 +16,20 @@ const NavigationMenu = () => {
         <span className="app-name">Compendium</span>
       </div>
       <div className="right-section">
-        <span className="menu-item">
+        <span
+          className="menu-item"
+          onClick={() => handleDataSourceChange("mhw")}
+        >
           <img
             src="assets/logo_world.png"
             className="game-logo"
             alt="MH World logo"
           />
         </span>
-        <span className="menu-item">
+        <span
+          className="menu-item"
+          onClick={() => handleDataSourceChange("mhr")}
+        >
           <img
             src="assets/logo_rise.png"
             className="game-logo"

@@ -1,6 +1,7 @@
 // MonsterCard.js
 import React, { useState } from "react";
 import mhw_db from "../data/mhw_db.json";
+import mhr_db from "../data/mhr_db.json";
 import "../styles/MonsterCard.css";
 
 const elementIconMapping = {
@@ -32,7 +33,7 @@ const getMonsterIconFileName = (monsterName) => {
 };
 
 // Generate monster card
-const MonsterCard = ({ monster }) => {
+const MonsterCard = ({ monster, dataSource }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleDescription = () => {
@@ -40,8 +41,8 @@ const MonsterCard = ({ monster }) => {
   };
 
   const croppedDescription = isExpanded
-    ? monster.description
-    : `${monster.description.slice(0, 50)}...`;
+    ? (monster.description || "").slice(0, 50)
+    : `${(monster.description || "").slice(0, 50)}...`;
 
   const monsterIconFileName = getMonsterIconFileName(monster.name);
 
@@ -80,12 +81,13 @@ const MonsterCard = ({ monster }) => {
 };
 
 // Search feature
-const MonsterCards = ({ searchTerm }) => {
+
+const MonsterCards = ({ searchTerm, dataSource }) => {
+  const monsterDB = dataSource === "mhw" ? mhw_db : mhr_db;
+
   // Filter large monsters
-  const filteredMonsters = mhw_db.filter(
-    (monster) =>
-      monster.type === "large" &&
-      monster.name.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredMonsters = monsterDB.filter((monster) =>
+    monster.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   // Sort monsters alphabetically
@@ -96,7 +98,11 @@ const MonsterCards = ({ searchTerm }) => {
   return (
     <div className="monster-cards-container">
       {sortedMonsters.map((monster) => (
-        <MonsterCard key={`${monster.id}-${monster.name}`} monster={monster} />
+        <MonsterCard
+          key={`${monster.id}-${monster.name}`}
+          monster={monster}
+          dataSource={dataSource}
+        />
       ))}
     </div>
   );

@@ -7,24 +7,24 @@ import "../styles/App.css";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const [dataSource, setDataSource] = useState("mhw");
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
   };
 
+  const handleDataSourceChange = (newSource) => {
+    setDataSource(newSource);
+  };
+
   return (
     <div className="App">
-      <NavigationMenu />
+      <NavigationMenu onDataSourceChange={handleDataSourceChange} />
       <div className="main-content">
         <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
-        <MonsterCards searchTerm={searchTerm} />
+        <MonsterCards searchTerm={searchTerm} dataSource={dataSource} />
       </div>
-      <div className="footer">
-        <p className="centered">
-          Compendium | Created by{" "}
-          <a href="https://github.com/zad-sixstrings">zad-sixstrings</a> - 2023
-        </p>
-      </div>
+      {/* ... */}
     </div>
   );
 };
