@@ -305,10 +305,6 @@
 			{
 				"element": "blast",
 				"stars": 3
-			},
-			{
-				"element": "exhaust",
-				"stars": 3
 			}
 		]
 	},
@@ -468,10 +464,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 3
 			}
 		]
 	},
@@ -519,10 +511,6 @@
 			},
 			{
 				"element": "blast",
-				"stars": 2
-			},
-			{
-				"element": "exhaust",
 				"stars": 2
 			}
 		]
@@ -952,10 +940,6 @@
 			{
 				"element": "stun",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 3
 			}
 		]
 	},
@@ -1044,26 +1028,6 @@
 			{
 				"element": "blast",
 				"stars": 0
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 2
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -1119,26 +1083,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 2
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -1194,26 +1138,6 @@
 			},
 			{
 				"element": "blast",
-				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
 				"stars": 2
 			}
 		]
@@ -1275,26 +1199,6 @@
 			{
 				"element": "blast",
 				"stars": 1
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 2
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -1353,26 +1257,6 @@
 			{
 				"element": "blast",
 				"stars": 0
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 2
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -1436,26 +1320,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 0
-			},
-			{
-				"element": "iceblight",
-				"stars": 2
 			}
 		]
 	},
@@ -1514,26 +1378,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 2
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -1598,26 +1442,6 @@
 			{
 				"element": "blast",
 				"stars": 0
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 2
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -1679,26 +1503,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 2
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -1763,26 +1567,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 2
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -1842,26 +1626,6 @@
 			{
 				"element": "blast",
 				"stars": 3
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 2
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -1914,26 +1678,6 @@
 			},
 			{
 				"element": "blast",
-				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
 				"stars": 2
 			}
 		]
@@ -1995,26 +1739,6 @@
 			{
 				"element": "blast",
 				"stars": 0
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 2
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -2071,26 +1795,6 @@
 			},
 			{
 				"element": "blast",
-				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 0
-			},
-			{
-				"element": "iceblight",
 				"stars": 2
 			}
 		]
@@ -2153,26 +1857,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 2
 			}
 		]
 	},
@@ -2230,26 +1914,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -2309,26 +1973,6 @@
 			},
 			{
 				"element": "blast",
-				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
 				"stars": 2
 			}
 		]
@@ -2390,26 +2034,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 2
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -2470,26 +2094,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 2
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 2
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -2550,26 +2154,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 2
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 2
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -2629,26 +2213,6 @@
 			},
 			{
 				"element": "blast",
-				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
 				"stars": 2
 			}
 		]
@@ -2710,26 +2274,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 2
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -2793,26 +2337,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 3
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 2
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -2876,26 +2400,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 2
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -2956,26 +2460,6 @@
 			{
 				"element": "blast",
 				"stars": 0
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 2
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -3036,26 +2520,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 2
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -3118,26 +2582,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 2
 			}
 		]
 	},
@@ -3198,26 +2642,6 @@
 			{
 				"element": "blast",
 				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 2
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 2
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -3281,26 +2705,6 @@
 			{
 				"element": "blast",
 				"stars": 0
-			},
-			{
-				"element": "exhaust",
-				"stars": 0
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 2
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
-				"stars": 1
 			}
 		]
 	},
@@ -3360,26 +2764,6 @@
 			},
 			{
 				"element": "blast",
-				"stars": 2
-			},
-			{
-				"element": "exhaust",
-				"stars": 1
-			},
-			{
-				"element": "fireblight",
-				"stars": 1
-			},
-			{
-				"element": "waterblight",
-				"stars": 1
-			},
-			{
-				"element": "thunderblight",
-				"stars": 1
-			},
-			{
-				"element": "iceblight",
 				"stars": 2
 			}
 		]

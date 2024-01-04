@@ -1,4 +1,7 @@
 // MonsterCard.js
+// TODO : Filter large monsters only for World
+// TODO : Apply Rise icons for Rise cards
+
 import React, { useState } from "react";
 import mhw_db from "../data/mhw_db.json";
 import mhr_db from "../data/mhr_db.json";
@@ -86,8 +89,10 @@ const MonsterCards = ({ searchTerm, dataSource }) => {
   const monsterDB = dataSource === "mhw" ? mhw_db : mhr_db;
 
   // Filter large monsters
-  const filteredMonsters = monsterDB.filter((monster) =>
-    monster.name.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredMonsters = monsterDB.filter(
+    (monster) =>
+      (!monster.type || monster.type === "large") &&
+      monster.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   // Sort monsters alphabetically
