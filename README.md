@@ -10,3 +10,7 @@ The app is fully responsive. and can be accessed here :
 https://compendium.pickbyte.net
 
 Happy hunting !
+
+## Changelog
+
+- Added support for Rise/Sunbreak
