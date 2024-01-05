@@ -77,7 +77,7 @@ const MonsterCard = ({ monster, dataSource }) => {
       <div className="wr-row">
         <div className="weaknesses">
           <p className="bold centered">Weakness</p>
-          <p className="centered">
+          <p className="left-align">
             {sortedWeaknesses.map((w, index) => (
               <span className="element-rating" key={`${w.element}-${index}`}>
                 <ElementIcon element={w.element} />

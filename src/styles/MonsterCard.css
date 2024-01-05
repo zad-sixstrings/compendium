@@ -60,18 +60,28 @@ p.description {
   text-align: center;
 }
 
+.right-align {
+  text-align: left;
+}
+
 .bold {
   font-weight: bold;
 }
 
 .star-icon {
-  font-size: 10px;
-  text-shadow: 1px 1px 1px black;
+  font-size: 7px;
+  text-shadow: 0px 0px 2px black;
+  letter-spacing: -2px;
 }
 
 /* Weaknesses/Resistances style */
 .wr-row {
   display: flex;
+  height: 200px;
+}
+
+.wr-row span {
+  vertical-align: middle;
 }
 
 .weaknesses {
