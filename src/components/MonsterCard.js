@@ -1,4 +1,5 @@
 // MonsterCard.js
+// TODO : Replace stars with element icons
 
 import React, { useState } from "react";
 import mhw_db from "../data/mhw_db.json";
@@ -80,7 +81,7 @@ const MonsterCard = ({ monster, dataSource }) => {
             {sortedWeaknesses.map((w, index) => (
               <span className="element-rating" key={`${w.element}-${index}`}>
                 <ElementIcon element={w.element} />
-                {` ${w.stars}`}
+                {renderStars(w.stars)}
               </span>
             ))}
           </p>
@@ -96,6 +97,16 @@ const MonsterCard = ({ monster, dataSource }) => {
       </div>
     </div>
   );
+};
+
+// Function to render stars based on the weakness value
+const renderStars = (stars) => {
+  const starIcons = Array.from({ length: stars }, (_, index) => (
+    <span key={index} className="star-icon">
+      ⭐
+    </span>
+  ));
+  return starIcons;
 };
 
 // Search feature

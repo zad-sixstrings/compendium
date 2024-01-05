@@ -64,6 +64,11 @@ p.description {
   font-weight: bold;
 }
 
+.star-icon {
+  font-size: 10px;
+  text-shadow: 1px 1px 1px black;
+}
+
 /* Weaknesses/Resistances style */
 .wr-row {
   display: flex;
