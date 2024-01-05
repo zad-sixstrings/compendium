@@ -1,6 +1,4 @@
 // MonsterCard.js
-// TODO : Filter large monsters only for World
-// TODO : Apply Rise icons for Rise cards
 
 import React, { useState } from "react";
 import mhw_db from "../data/mhw_db.json";
@@ -29,10 +27,17 @@ const ElementIcon = ({ element }) => {
 };
 
 // Generate the monster icon file name
-const getMonsterIconFileName = (monsterName) => {
+const getMonsterIconFileName = (monsterName, dataSource) => {
   // Replace spaces with underscores
   const formattedName = monsterName.replace(/\s+/g, "_");
-  return `${formattedName}_Icon.webp`;
+
+  // Determine the folder based on the data source
+  const folder = dataSource === "mhw" ? "monsters" : "Rmonsters";
+
+  // Construct the filename
+  return `${folder}/${
+    dataSource === "mhr" ? "MHRise-" : ""
+  }${formattedName}_Icon.webp`;
 };
 
 // Generate monster card
@@ -47,12 +52,12 @@ const MonsterCard = ({ monster, dataSource }) => {
     ? (monster.description || "").slice(0, 50)
     : `${(monster.description || "").slice(0, 50)}...`;
 
-  const monsterIconFileName = getMonsterIconFileName(monster.name);
+  const monsterIconFileName = getMonsterIconFileName(monster.name, dataSource);
 
   return (
     <div className="monster-card">
       <img
-        src={`/assets/monsters/${monsterIconFileName}`}
+        src={`/assets/${monsterIconFileName}`}
         alt={`${monster.name} Icon`}
         className="monster-icon"
       />

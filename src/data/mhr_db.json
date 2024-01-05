@@ -945,7 +945,7 @@
 	},
 	{
 		"id": 30,
-		"name": "Tobbi-Kadachi",
+		"name": "Tobi-Kadachi",
 		"elements": [
 			"thunder"
 		],
@@ -1024,10 +1024,6 @@
 			{
 				"element": "sleep",
 				"stars": 1
-			},
-			{
-				"element": "blast",
-				"stars": 0
 			}
 		]
 	},
@@ -1055,14 +1051,6 @@
 			{
 				"element": "fire",
 				"stars": 2
-			},
-			{
-				"element": "water",
-				"stars": 0
-			},
-			{
-				"element": "ice",
-				"stars": 0
 			},
 			{
 				"element": "poison",
@@ -1105,14 +1093,6 @@
 		],
 		"weaknesses": [
 			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
 				"element": "water",
 				"stars": 1
 			},
@@ -1127,10 +1107,6 @@
 			{
 				"element": "stun",
 				"stars": 1
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
 			},
 			{
 				"element": "sleep",
@@ -1165,20 +1141,12 @@
 				"stars": 3
 			},
 			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
 				"element": "fire",
 				"stars": 2
 			},
 			{
 				"element": "water",
 				"stars": 1
-			},
-			{
-				"element": "ice",
-				"stars": 0
 			},
 			{
 				"element": "poison",
@@ -1227,36 +1195,8 @@
 				"stars": 2
 			},
 			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
-				"element": "water",
-				"stars": 0
-			},
-			{
-				"element": "ice",
-				"stars": 0
-			},
-			{
-				"element": "poison",
-				"stars": 0
-			},
-			{
 				"element": "stun",
 				"stars": 1
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
-			},
-			{
-				"element": "sleep",
-				"stars": 0
-			},
-			{
-				"element": "blast",
-				"stars": 0
 			}
 		]
 	},
@@ -1286,36 +1226,8 @@
 				"stars": 3
 			},
 			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
-				"element": "water",
-				"stars": 0
-			},
-			{
 				"element": "ice",
 				"stars": 2
-			},
-			{
-				"element": "poison",
-				"stars": 0
-			},
-			{
-				"element": "stun",
-				"stars": 0
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
-			},
-			{
-				"element": "sleep",
-				"stars": 0
 			},
 			{
 				"element": "blast",
@@ -1344,36 +1256,12 @@
 				"stars": 2
 			},
 			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
 				"element": "fire",
 				"stars": 3
 			},
 			{
-				"element": "water",
-				"stars": 0
-			},
-			{
-				"element": "ice",
-				"stars": 0
-			},
-			{
-				"element": "poison",
-				"stars": 0
-			},
-			{
 				"element": "stun",
 				"stars": 1
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
-			},
-			{
-				"element": "sleep",
-				"stars": 0
 			},
 			{
 				"element": "blast",
@@ -1412,36 +1300,8 @@
 				"stars": 1
 			},
 			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
-				"element": "water",
-				"stars": 0
-			},
-			{
-				"element": "ice",
-				"stars": 0
-			},
-			{
-				"element": "poison",
-				"stars": 0
-			},
-			{
 				"element": "stun",
 				"stars": 1
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
-			},
-			{
-				"element": "sleep",
-				"stars": 0
-			},
-			{
-				"element": "blast",
-				"stars": 0
 			}
 		]
 	},
@@ -1473,32 +1333,12 @@
 				"stars": 3
 			},
 			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
-				"element": "water",
-				"stars": 0
-			},
-			{
-				"element": "ice",
-				"stars": 0
-			},
-			{
 				"element": "poison",
 				"stars": 1
 			},
 			{
 				"element": "stun",
 				"stars": 1
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
-			},
-			{
-				"element": "sleep",
-				"stars": 0
 			},
 			{
 				"element": "blast",
@@ -1529,18 +1369,6 @@
 		],
 		"weaknesses": [
 			{
-				"element": "dragon",
-				"stars": 0
-			},
-			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
 				"element": "water",
 				"stars": 2
 			},
@@ -1555,14 +1383,6 @@
 			{
 				"element": "stun",
 				"stars": 1
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
-			},
-			{
-				"element": "sleep",
-				"stars": 0
 			},
 			{
 				"element": "blast",
@@ -1588,24 +1408,8 @@
 		],
 		"weaknesses": [
 			{
-				"element": "dragon",
-				"stars": 0
-			},
-			{
 				"element": "thunder",
 				"stars": 2
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
-				"element": "water",
-				"stars": 0
-			},
-			{
-				"element": "ice",
-				"stars": 0
 			},
 			{
 				"element": "poison",
@@ -1614,14 +1418,6 @@
 			{
 				"element": "stun",
 				"stars": 1
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
-			},
-			{
-				"element": "sleep",
-				"stars": 0
 			},
 			{
 				"element": "blast",
@@ -1645,14 +1441,6 @@
 				"stars": 1
 			},
 			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
 				"element": "water",
 				"stars": 1
 			},
@@ -1667,14 +1455,6 @@
 			{
 				"element": "stun",
 				"stars": 1
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
-			},
-			{
-				"element": "sleep",
-				"stars": 0
 			},
 			{
 				"element": "blast",
@@ -1709,14 +1489,6 @@
 				"stars": 2
 			},
 			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
-				"element": "water",
-				"stars": 0
-			},
-			{
 				"element": "ice",
 				"stars": 1
 			},
@@ -1725,20 +1497,12 @@
 				"stars": 1
 			},
 			{
-				"element": "stun",
-				"stars": 0
-			},
-			{
 				"element": "paralysis",
 				"stars": 1
 			},
 			{
 				"element": "sleep",
 				"stars": 1
-			},
-			{
-				"element": "blast",
-				"stars": 0
 			}
 		]
 	},
@@ -1762,10 +1526,6 @@
 				"stars": 3
 			},
 			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
 				"element": "fire",
 				"stars": 1
 			},
@@ -1776,22 +1536,6 @@
 			{
 				"element": "ice",
 				"stars": 2
-			},
-			{
-				"element": "poison",
-				"stars": 0
-			},
-			{
-				"element": "stun",
-				"stars": 0
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
-			},
-			{
-				"element": "sleep",
-				"stars": 0
 			},
 			{
 				"element": "blast",
@@ -1819,22 +1563,6 @@
 		],
 		"weaknesses": [
 			{
-				"element": "dragon",
-				"stars": 0
-			},
-			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
-				"element": "water",
-				"stars": 0
-			},
-			{
 				"element": "ice",
 				"stars": 1
 			},
@@ -1845,14 +1573,6 @@
 			{
 				"element": "stun",
 				"stars": 1
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
-			},
-			{
-				"element": "sleep",
-				"stars": 0
 			},
 			{
 				"element": "blast",
@@ -1876,10 +1596,6 @@
 		],
 		"weaknesses": [
 			{
-				"element": "dragon",
-				"stars": 0
-			},
-			{
 				"element": "thunder",
 				"stars": 3
 			},
@@ -1894,22 +1610,6 @@
 			{
 				"element": "ice",
 				"stars": 3
-			},
-			{
-				"element": "poison",
-				"stars": 0
-			},
-			{
-				"element": "stun",
-				"stars": 0
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
-			},
-			{
-				"element": "sleep",
-				"stars": 0
 			},
 			{
 				"element": "blast",
@@ -1940,36 +1640,16 @@
 				"stars": 3
 			},
 			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
 				"element": "fire",
 				"stars": 1
-			},
-			{
-				"element": "water",
-				"stars": 0
 			},
 			{
 				"element": "ice",
 				"stars": 2
 			},
 			{
-				"element": "poison",
-				"stars": 0
-			},
-			{
 				"element": "stun",
 				"stars": 1
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
-			},
-			{
-				"element": "sleep",
-				"stars": 0
 			},
 			{
 				"element": "blast",
@@ -2006,14 +1686,6 @@
 			{
 				"element": "fire",
 				"stars": 3
-			},
-			{
-				"element": "water",
-				"stars": 0
-			},
-			{
-				"element": "ice",
-				"stars": 0
 			},
 			{
 				"element": "poison",
@@ -2056,24 +1728,8 @@
 		],
 		"weaknesses": [
 			{
-				"element": "dragon",
-				"stars": 0
-			},
-			{
 				"element": "thunder",
 				"stars": 2
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
-				"element": "water",
-				"stars": 0
-			},
-			{
-				"element": "ice",
-				"stars": 0
 			},
 			{
 				"element": "poison",
@@ -2116,20 +1772,12 @@
 		],
 		"weaknesses": [
 			{
-				"element": "dragon",
-				"stars": 0
-			},
-			{
 				"element": "thunder",
 				"stars": 3
 			},
 			{
 				"element": "fire",
 				"stars": 3
-			},
-			{
-				"element": "water",
-				"stars": 0
 			},
 			{
 				"element": "ice",
@@ -2176,28 +1824,8 @@
 		],
 		"weaknesses": [
 			{
-				"element": "dragon",
-				"stars": 0
-			},
-			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
-				"element": "water",
-				"stars": 0
-			},
-			{
 				"element": "ice",
 				"stars": 2
-			},
-			{
-				"element": "poison",
-				"stars": 0
 			},
 			{
 				"element": "stun",
@@ -2236,16 +1864,8 @@
 		],
 		"weaknesses": [
 			{
-				"element": "dragon",
-				"stars": 0
-			},
-			{
 				"element": "thunder",
 				"stars": 3
-			},
-			{
-				"element": "fire",
-				"stars": 0
 			},
 			{
 				"element": "water",
@@ -2299,20 +1919,8 @@
 		],
 		"weaknesses": [
 			{
-				"element": "dragon",
-				"stars": 0
-			},
-			{
 				"element": "thunder",
 				"stars": 3
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
-				"element": "water",
-				"stars": 0
 			},
 			{
 				"element": "ice",
@@ -2325,10 +1933,6 @@
 			{
 				"element": "stun",
 				"stars": 1
-			},
-			{
-				"element": "paralysis",
-				"stars": 0
 			},
 			{
 				"element": "sleep",
@@ -2362,24 +1966,12 @@
 		],
 		"weaknesses": [
 			{
-				"element": "dragon",
-				"stars": 0
-			},
-			{
 				"element": "thunder",
 				"stars": 2
 			},
 			{
 				"element": "fire",
 				"stars": 3
-			},
-			{
-				"element": "water",
-				"stars": 0
-			},
-			{
-				"element": "ice",
-				"stars": 0
 			},
 			{
 				"element": "poison",
@@ -2392,10 +1984,6 @@
 			{
 				"element": "paralysis",
 				"stars": 1
-			},
-			{
-				"element": "sleep",
-				"stars": 0
 			},
 			{
 				"element": "blast",
@@ -2426,14 +2014,6 @@
 				"stars": 1
 			},
 			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
 				"element": "water",
 				"stars": 3
 			},
@@ -2456,10 +2036,6 @@
 			{
 				"element": "sleep",
 				"stars": 1
-			},
-			{
-				"element": "blast",
-				"stars": 0
 			}
 		]
 	},
@@ -2492,10 +2068,6 @@
 			{
 				"element": "fire",
 				"stars": 3
-			},
-			{
-				"element": "water",
-				"stars": 0
 			},
 			{
 				"element": "ice",
@@ -2548,24 +2120,12 @@
 				"stars": 2
 			},
 			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
 				"element": "water",
 				"stars": 2
 			},
 			{
 				"element": "ice",
 				"stars": 3
-			},
-			{
-				"element": "poison",
-				"stars": 0
 			},
 			{
 				"element": "stun",
@@ -2603,10 +2163,6 @@
 			}
 		],
 		"weaknesses": [
-			{
-				"element": "dragon",
-				"stars": 0
-			},
 			{
 				"element": "thunder",
 				"stars": 3
@@ -2667,28 +2223,12 @@
 		],
 		"weaknesses": [
 			{
-				"element": "dragon",
-				"stars": 0
-			},
-			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
 				"element": "water",
 				"stars": 3
 			},
 			{
 				"element": "ice",
 				"stars": 2
-			},
-			{
-				"element": "poison",
-				"stars": 0
 			},
 			{
 				"element": "stun",
@@ -2701,10 +2241,6 @@
 			{
 				"element": "sleep",
 				"stars": 1
-			},
-			{
-				"element": "blast",
-				"stars": 0
 			}
 		]
 	},
@@ -2731,24 +2267,12 @@
 				"stars": 2
 			},
 			{
-				"element": "thunder",
-				"stars": 0
-			},
-			{
-				"element": "fire",
-				"stars": 0
-			},
-			{
 				"element": "water",
 				"stars": 1
 			},
 			{
 				"element": "ice",
 				"stars": 3
-			},
-			{
-				"element": "poison",
-				"stars": 0
 			},
 			{
 				"element": "stun",
