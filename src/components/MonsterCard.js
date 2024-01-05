@@ -32,7 +32,7 @@ const getMonsterIconFileName = (monsterName, dataSource) => {
   const formattedName = monsterName.replace(/\s+/g, "_");
 
   // Determine the folder based on the data source
-  const folder = dataSource === "mhw" ? "monsters" : "Rmonsters";
+  const folder = dataSource === "mhw" ? "Wmonsters" : "Rmonsters";
 
   // Construct the filename
   return `${folder}/${
