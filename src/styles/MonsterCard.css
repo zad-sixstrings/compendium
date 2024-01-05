@@ -64,6 +64,24 @@ p.description {
   font-weight: bold;
 }
 
+/* Weaknesses/Resistances style */
+.wr-row {
+  display: flex;
+}
+
+.weaknesses {
+  flex: 50%;
+}
+
+.resistances {
+  flex: 50%;
+}
+
+.element-rating {
+  white-space: nowrap;
+  padding: 10px;
+}
+
 /* Responsive */
 @media screen and (max-width: 768px) {
   .monster-cards-container {

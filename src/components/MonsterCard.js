@@ -52,6 +52,10 @@ const MonsterCard = ({ monster, dataSource }) => {
     ? (monster.description || "").slice(0, 50)
     : `${(monster.description || "").slice(0, 50)}...`;
 
+  const sortedWeaknesses = monster.weaknesses
+    .slice()
+    .sort((a, b) => b.stars - a.stars);
+
   const monsterIconFileName = getMonsterIconFileName(monster.name, dataSource);
 
   return (
@@ -69,21 +73,27 @@ const MonsterCard = ({ monster, dataSource }) => {
           {isExpanded ? " (hide)" : " (show)"}
         </span>
       </p>
-      <p className="bold centered">Weakness</p>
-      <p className="centered">
-        {monster.weaknesses.map((w, index) => (
-          <span key={`${w.element}-${index}`}>
-            <ElementIcon element={w.element} />
-            {` ${w.stars}`}
-          </span>
-        ))}
-      </p>
-      <p className="bold centered">Resistance</p>
-      <p className="centered">
-        {monster.resistances.map((r, index) => (
-          <ElementIcon key={`${r.element}-${index}`} element={r.element} />
-        ))}
-      </p>
+      <div className="wr-row">
+        <div className="weaknesses">
+          <p className="bold centered">Weakness</p>
+          <p className="centered">
+            {sortedWeaknesses.map((w, index) => (
+              <span className="element-rating" key={`${w.element}-${index}`}>
+                <ElementIcon element={w.element} />
+                {` ${w.stars}`}
+              </span>
+            ))}
+          </p>
+        </div>
+        <div className="resistances">
+          <p className="bold centered">Resistance</p>
+          <p className="centered">
+            {monster.resistances.map((r, index) => (
+              <ElementIcon key={`${r.element}-${index}`} element={r.element} />
+            ))}
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
