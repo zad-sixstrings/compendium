@@ -21,6 +21,13 @@ const App = () => {
     <div className="App">
       <NavigationMenu onDataSourceChange={handleDataSourceChange} />
       <div className="main-content">
+        <div className="warning">
+          <p>
+            There is a problem with the way weaknesses and resistances are
+            displayed on Firefox and Safari. I am aware of this bug and am
+            working on it. Sorry for the inconvenience. Will update asap !
+          </p>
+        </div>
         <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
         <MonsterCards searchTerm={searchTerm} dataSource={dataSource} />
       </div>

@@ -67,18 +67,30 @@ p.description {
 /* Weaknesses/Resistances style */
 .wr-row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .weaknesses {
-  flex: 50%;
+  width: 50%; /* Adjusted to set a fixed width */
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 .resistances {
-  flex: 50%;
+  width: 50%; /* Adjusted to set a fixed width */
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 .element-rating {
   white-space: nowrap;
+  padding: 10px;
+}
+
+.warning {
+  background-color: rgb(20, 111, 172);
+  margin: 0 auto;
+  width: 50%;
   padding: 10px;
 }
 
