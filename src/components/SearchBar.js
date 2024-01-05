@@ -5,6 +5,7 @@ const SearchBar = ({ searchTerm, handleSearch }) => {
   return (
     <div className="searchbar">
       <input
+        name="search"
         type="text"
         placeholder="Search monster..."
         value={searchTerm}
