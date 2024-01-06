@@ -71,19 +71,15 @@ p.description {
 }
 
 .weaknesses {
-  width: 50%; /* Adjusted to set a fixed width */
-  box-sizing: border-box;
-  padding: 10px;
+  flex: 1;
 }
 
 .resistances {
-  width: 50%; /* Adjusted to set a fixed width */
-  box-sizing: border-box;
-  padding: 10px;
+  flex: 1;
 }
 
 .element-rating {
-  white-space: nowrap;
+
   padding: 10px;
 }
 
@@ -92,6 +88,7 @@ p.description {
   margin: 0 auto;
   width: 50%;
   padding: 10px;
+  color: rgb(211, 211, 211);
 }
 
 /* Responsive */
